@@ -1,0 +1,27 @@
+[project]
+name = "healthguardian-ai"
+version = "0.1.0"
+description = "AI-powered multi-agent health assistant with CrewAI and Streamlit"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.32.0",
+    "crewai>=0.80.0",
+    "crewai-tools>=0.14.0",
+    "sqlalchemy>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "bcrypt>=4.1.0",
+    "apscheduler>=3.10.0",
+    "openai>=1.30.0",
+    "langchain>=0.3.0",
+    "langchain-community>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "chromadb>=0.5.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+]
+
+
+[project.scripts]
+healthguardian = "streamlit_app:main"
