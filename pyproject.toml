@@ -24,4 +24,4 @@ dependencies = [
 
 
 [project.scripts]
-healthguardian = "streamlit_app:main"
+healthguardian = "main:main"

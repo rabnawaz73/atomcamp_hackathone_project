@@ -47,7 +47,7 @@ Edit `.env` and add your API keys:
 ### 3. Run the app
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run main.py
 ```
 
 Open [http://localhost:8501](http://localhost:8501) in your browser.
@@ -55,7 +55,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 ## Architecture
 
 ```
-streamlit_app.py          # UI entry point
+main.py                 # UI entry point
 healthguardian/
 ├── agents/crew.py        # CrewAI orchestration (Location → Planner)
 ├── tools/                # Weather, geolocation, WhatsApp
