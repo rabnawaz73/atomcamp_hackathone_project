@@ -5,7 +5,7 @@ description = "AI-powered multi-agent health assistant with CrewAI and Streamlit
 readme = "README.md"
 requires-python = ">=3.11"
 [tool.vercel]
-entrypoint = "main.py:app"
+entrypoint = "main:app"  # CORRECT - just the filename without .py
 
 dependencies = [
     "streamlit>=1.32.0",
