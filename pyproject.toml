@@ -4,8 +4,7 @@ version = "0.1.0"
 description = "AI-powered multi-agent health assistant with CrewAI and Streamlit"
 readme = "README.md"
 requires-python = ">=3.11"
-[tool.vercel]
-entrypoint = "path/to/streamlit_app.py"
+
 dependencies = [
     "streamlit>=1.32.0",
     "crewai>=0.80.0",
